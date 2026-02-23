@@ -17,11 +17,16 @@ def formula(S, K, T, r, iv):
     return call_price
 
 if __name__ == "__main__":
-    S = 100
-    K = 105
-    T = 1
-    r = 0.05
-    sigma = 0.2
-  
+    S = 100      # stock price
+    K = 105      # strike
+    T = 1        # time to maturity (years)
+    r = 0.05     # risk-free rate
+    sigma = 0.2  # volatility
+
     price = formula(S, K, T, r, sigma)
-    print("The call price is:", price)
+    print("Call Price:", price)
+    
+def greeks(S, K, T, r, iv):
+    delta = norm.cdf(d1) -1
+    gamma = pdf_d1 / (S * iv * math.sqrt(T))
+    vega = S * pdf_d1 * math.sqrt(T)
