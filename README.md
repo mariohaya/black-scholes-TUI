@@ -1,6 +1,6 @@
 # black-scholes-TUI
 
-Terminal-based Black-Scholes option pricing calculator for Arch Linux and Arch-based distributions
+Terminal-based Black-Scholes European options pricing calculator.
 
 GUI soon
 
