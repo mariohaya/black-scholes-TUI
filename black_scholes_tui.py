@@ -30,3 +30,18 @@ def greeks(S, K, T, r, iv):
     delta = norm.cdf(d1) -1
     gamma = pdf_d1 / (S * iv * math.sqrt(T))
     vega = S * pdf_d1 * math.sqrt(T)
+
+
+if __name__ == "__main__":
+    S = 100
+    K = 105
+    T = 1
+    r = 0.05
+    sigma = 0.2
+
+    price = call_price(S, K, T, r, sigma)
+    greeks = call_greeks(S, K, T, r, sigma)
+
+    print(f"Call Price: {price:.4f}")
+    for name, value in greeks.items():
+        print(f"{name.capitalize()}: {value:.4f}")
