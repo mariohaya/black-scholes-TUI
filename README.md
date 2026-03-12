@@ -1,8 +1,13 @@
 # black-scholes-TUI
 
-Terminal-based Black-Scholes European options pricing calculator.
+## Features
+- Command Line Interface (CLI)
+- European call option pricing
+- European put option pricing
+- Greeks calculation
+- GUI planned
 
-GUI soon
+
 
 $$
 \huge C = S_0 N(d_1) - K e^{-rT} N(d_2)
