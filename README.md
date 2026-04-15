@@ -1,4 +1,6 @@
 # black-scholes-TUI
+Access a Black-Scholes calculator from your Arch Linux terminal. Includes Greeks. Work in progress.
+
 
 ## Features
 - Command Line Interface (CLI)
