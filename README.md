@@ -7,7 +7,7 @@ Access a Black-Scholes calculator from your Arch Linux terminal that compares th
 - European put option pricing
 - Greeks calculation
 - Theoretical price comparison against market prices
-- 
+
 $$
 \huge C = S_0 N(d_1) - K e^{-rT} N(d_2)
 $$
