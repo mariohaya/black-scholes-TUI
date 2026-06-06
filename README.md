@@ -1,16 +1,13 @@
 # black-scholes-TUI
-Access a Black-Scholes calculator from your Arch Linux terminal. Includes Greeks. Work in progress.
-
+Access a Black-Scholes calculator from your Arch Linux terminal that compares theoretical values to live options prices from Yahoo Finance.
 
 ## Features
 - Command Line Interface (CLI)
 - European call option pricing
 - European put option pricing
 - Greeks calculation
-- GUI planned
-
-
-
+- Theoretical price comparison against market prices
+- 
 $$
 \huge C = S_0 N(d_1) - K e^{-rT} N(d_2)
 $$
